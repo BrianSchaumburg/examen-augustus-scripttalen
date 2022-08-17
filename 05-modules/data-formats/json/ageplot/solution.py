@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import json
 
 
-with open('../covid.json') as file:
+with open('covid.json') as file:
     data = json.load(file)
 
 

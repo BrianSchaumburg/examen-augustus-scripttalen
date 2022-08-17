@@ -6,7 +6,7 @@ import csv
 
 table = {}
 
-with open(sys.argv[1]) as file:
+with open('exam-schedule.csv') as file:
     data = csv.DictReader(file)
 
     for row in data:
